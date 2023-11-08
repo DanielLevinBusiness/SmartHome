@@ -1,0 +1,9 @@
+Pin	Wiring to Arduino Uno
+SDA	Digital 53
+SCK	Digital 52
+MOSI	Digital 51
+MISO	Digital 50
+IRQ	unconnected
+GND	GND
+RST	Digital 5
+3.3V	3.3V

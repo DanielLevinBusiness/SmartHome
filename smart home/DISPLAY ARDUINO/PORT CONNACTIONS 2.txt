@@ -1,0 +1,19 @@
+TEMP SENSOR:
++ -- > 5V
+- -- > GND
+MIDDLE -- > A1
+HOT -- > 2 DIG
+COLD -- > 3 DIG
+
+lcd:
+VCC -- > 5V
+GND -- > GND
+SDA -- > A4
+SCL -- > A5
+
+MoistureSensor:
+VCC -- > 5V
+GND -- > GND
+DO -- > ANY DIG
+AO -- > ANY ANALOG
+ALARM -- > 10 DIG

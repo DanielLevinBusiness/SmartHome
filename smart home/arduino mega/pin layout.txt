@@ -1,0 +1,53 @@
+keypad:
+1 -- > 45 dig
+2 -- > 44 dig
+3 -- > 43 dig
+4 -- > 49 dig
+5 -- > 48 dig
+6 -- > 47 dig
+7 -- > 46 dig
+
+proximity_sensor:
+VCC -- > 5V
+GND -- > GND
+ECHO -- > 32 DIG
+TRIG -- > 30 DIG
++ ALARM -- >34/36 DIG
+- ALARM -- > GND
+
+motion sensor:
+VCC --> 5V
+GND --> GND
+OUT --> 7 DIG
+ALARM --> 34/36 DIG
+
+RFID:
+SDA -- >Digital 53
+SCK -- >Digital 52
+MOSI -- >Digital 51
+MISO -- >Digital 50
+IRQ -- >unconnected
+GND -- >GND
+RST -- >Digital 5
+3.3V -- >3.3V
+DOOR MOTOR -- > 9 DIG
+
+TEMP SENSOR:
++ -- > 5V
+- -- > GND
+MIDDLE -- > A1
+HOT -- > 2 DIG
+COLD -- > 3 DIG
+
+lcd:
+VCC -- > 5V
+GND -- > GND
+SDA -- > SDA 20
+SCL -- > SCL 21
+
+MoistureSensor:
+VCC -- > 5V
+GND -- > GND
+DO -- > ANY DIG
+AO -- > A4
+ALARM -- > 10 DIG
